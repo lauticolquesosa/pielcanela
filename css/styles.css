@@ -139,6 +139,18 @@ img { max-width: 100%; }
     width: min(360px, 80%);
     margin: 0 auto;
   }
+  /* CTAs del hero: centrados, mismo tamaño y un poco más chicos */
+  .pc-hero-cta {
+    justify-content: center;
+    gap: 12px;
+  }
+  .pc-hero-cta a {
+    flex: 1 1 auto;
+    max-width: 230px;
+    justify-content: center;
+    font-size: 15px !important;
+    padding: 14px 22px !important;
+  }
   #serv-grid    { grid-template-columns: repeat(2, 1fr) !important; }
   #gallery-grid { grid-template-columns: repeat(3, 1fr) !important; }
   #why-grid     { grid-template-columns: 1fr !important; }
